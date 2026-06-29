@@ -339,3 +339,16 @@ footer {
     font-size: 20px;
     font-weight: bold;
 }
+ .footer-ending{
+    
+    background-color: pink;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ }
+ .footer-ending a{
+    color: white;
+    text-decoration: none;
+ }
