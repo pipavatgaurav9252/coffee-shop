@@ -1,0 +1,341 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+body {
+    background-color:burlywood;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(246, 200, 115);
+    padding: 10px 20px;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+}
+
+header a,i {
+    text-decoration: none;
+    color: white;   
+
+}
+
+.nav a:hover {
+    color: black;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.hero {
+    background-image: url(https://wallpapercave.com/wp/Rzgv2dA.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 50px;
+    font-size: 80px;
+    color: bisque;
+
+
+}
+.btn-hero{
+    padding: 10px 20px;
+    background-color: rgb(246, 200, 115);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.child .fresh {
+    font-size: 40px;
+    margin-left: 20px;
+
+}
+.coffee {
+    font-size: 70px;
+    margin-left: 70px;
+}
+
+
+
+
+
+.first-product {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+
+.maincard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards1{
+    background-image: url(https://i.pinimg.com/736x/64/06/d6/6406d6ea581d7e87f22bff8f10a92944.jpg );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+.cards2{
+    background-image: url(https://www.jcookingodyssey.com/wp-content/uploads/2023/03/iced-coffee-with-ice-cream.jpg );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+.cards3{
+    background-image: url(https://i.pinimg.com/originals/4c/28/e2/4c28e2420bf38c50120dba0cbaf42e8d.jpg );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+
+.cards1, .cards2, .cards3 p {
+    color: blanchedalmond;
+    padding-bottom: 20px;
+    font-size: 25px;
+    
+}
+
+.cards1 a {
+    
+    text-decoration: none;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.cards1 a:hover {
+    color: black;
+}
+.cards2 a {
+    
+    text-decoration: none;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.cards2 a:hover {
+    color: black;
+}
+.cards3 a {
+    
+    text-decoration: none;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.cards3 a {
+    
+    text-decoration: none;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.cards3 a:hover {
+    color: black;
+}
+
+.shake-parent {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.shake {
+    background-color: rgb(246, 200, 115);
+    width: 300px;
+    height: 350px;
+    position: relative;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.shake button {
+    padding: 2px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 9px;
+    border: none;
+    width: 90px;
+
+
+
+}
+
+.shake img {
+    height: 100px;
+    width: 90px;
+
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.shake p {
+    padding: 10px 30px;
+    display: flex;
+    text-align: center;
+}
+
+.photo2 {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo2 button {
+    position: absolute;
+    left: 70px;
+    width: 90px;
+}
+
+.photo2 p {
+    position: absolute;
+    left: 30px;
+}
+
+.photo3 {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo3 button {
+    position: absolute;
+    left: 70px;
+    width: 90px;
+
+}
+
+.photo3 p {
+    position: absolute;
+    left: 30px;
+
+}
+
+.blog {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.blogs {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(246, 200, 115);
+
+
+}
+
+.blogs img {
+    height: 150px;
+    width: 170px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.blogs h4 {
+    padding-bottom: 10px;
+
+}
+
+.blogs p {
+    font-size: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 200, 115);
+    width: 100%;
+    padding: 50px;
+    
+}
+
+.footerhead {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footermain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.footer-div1, .footer-div2, .footer-div3, .footer-div4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+.footer-div1 a, .footer-div2 a, .footer-div3 a, .footer-div4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-div1 p, .footer-div2 p, .footer-div3 p, .footer-div4 p {
+    font-size: 20px;
+    font-weight: bold;
+}

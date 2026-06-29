@@ -1,0 +1,361 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+header .logo {
+    font-size: 30px;
+    color: hotpink;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+header i {
+    color: hotpink;
+    text-align: center;
+}
+
+header button {
+    padding: 6px 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.header-right {
+    align-items: center;
+    font-size: 20px;
+}
+
+.hero-content {
+    background-image: url(https://images.openai.com/static-rsc-4/dLtU1e6BESQizJK1W1aNKxm2DZdaWLRpxPW2Wv7ez4EYi590hIyLsVeXtrH85x74Menn-EHlP2gSwqL6Rl0_8Ns-MaWrJsM1JUwlUnP-bgg-9b7SAYC5TWk7JCXoAvtRQKNYwpQszC1gMeUMfuQFCArq0RTksw3-GeIHW9_CVcxbe5C2SxRJCD4k7tfX0JH9?purpose=fullsize);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 10px;
+
+}
+
+.pera-hero {
+    color: lightgray;
+    font-size: 20px;
+}
+
+.rooms {
+    background-color: burlywood;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 10px;
+
+
+}
+
+.all-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.icone i {
+    display: none;
+}
+
+.infome {
+    font-size: 40px;
+    color: hotpink;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card1 {
+    background-image: url(https://images.openai.com/static-rsc-4/fN_edcdGQnXarIY64ZKUGW9ehtTlAmq9_FN7wrTaVzzug_DU7a9pOwrmweA842W5fX3nq9uJ2ldpCCR07zRLLeOLxf0PEdsWZXrBhipcEavJwQP4K0N1BfzGKR5j-agp3E0KEmx5MHiXrSDpqj2sULeSuxagBmIC4wg8EVIV_jyEy4wOAQofFoPJVcDQbUPo?purpose=fullsize);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    min-width: 48%;
+    border-radius: 10px;
+}
+
+.card2 {
+    background-image: url(https://images.openai.com/static-rsc-4/EDXXVXcDa19bEk8OT_P8v4zKBqob4B-vytsI-lXyeM_wotlND7Ao7uI4bjAOExSWgRgFqW7vqvm1gCZdyUac5T4MjodjXf5LautdQq3CeKBVN-BQp3lim2FaTZPo1XnRbKG4CZvGEDvRJ7cdY0NLSVy6_yBjsWDoIsoGErLDY73fXYy__CasznaIrjgr3RHX?purpose=fullsize);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.infi {
+    font-size: 30px;
+}
+
+.card3 {
+    background-image: url(https://images.openai.com/static-rsc-4/V6RnDytIjS0MgHE57hv9h5KBRMVejc5HMeqkf9gwidcyIjZplc2L8jW0GGl3MXZTIMKv6ZfUu8i-sQLx1ZUCQdrv15r5-03ftCOIHafcOkxr9EaRy2o8Z2LM_j7e0UAWz_bbTt9Uy3-Fjd_hzhZvry2BtW0oP5lZxkloHpiHG-1LFfAMKxuZ9698p4_98xY-?purpose=fullsize);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+.card-pera {
+    font-size: 20PX;
+    color: white;
+}
+
+.btn- {
+    display: flex;
+}
+
+footer {
+
+    background-color: rgb(27, 27, 33);
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 10px;
+    height: 400px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.insta img {
+    width: 100px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+button:hover {
+    color: black;
+    background-color: chocolate;
+}
+
+
+
+@media screen and (max-width:376px) {
+    header {
+        background-color: burlywood;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+        color: hotpink;
+    }
+
+    .card img {
+        width: 50%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .icone i {
+        display: block;
+        color: red;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .hero-content {
+        background-image: url(https://images.openai.com/static-rsc-4/dLtU1e6BESQizJK1W1aNKxm2DZdaWLRpxPW2Wv7ez4EYi590hIyLsVeXtrH85x74Menn-EHlP2gSwqL6Rl0_8Ns-MaWrJsM1JUwlUnP-bgg-9b7SAYC5TWk7JCXoAvtRQKNYwpQszC1gMeUMfuQFCArq0RTksw3-GeIHW9_CVcxbe5C2SxRJCD4k7tfX0JH9?purpose=fullsize);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        padding: 15px;
+    }
+
+    .rooms {
+        background-color: burlywood;
+        align-items: center;
+        text-align: center;
+        display: bolck;
+
+
+    }
+
+    .infome {
+        font-size: 25px;
+        color: hotpink;
+        font-weight: bold;
+    }
+
+    .card1 {
+        background-image: url(https://images.openai.com/static-rsc-4/fN_edcdGQnXarIY64ZKUGW9ehtTlAmq9_FN7wrTaVzzug_DU7a9pOwrmweA842W5fX3nq9uJ2ldpCCR07zRLLeOLxf0PEdsWZXrBhipcEavJwQP4K0N1BfzGKR5j-agp3E0KEmx5MHiXrSDpqj2sULeSuxagBmIC4wg8EVIV_jyEy4wOAQofFoPJVcDQbUPo?purpose=fullsize);
+        height: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        width: 90%;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+    .card2 {
+        background-image: url(https://images.openai.com/static-rsc-4/EDXXVXcDa19bEk8OT_P8v4zKBqob4B-vytsI-lXyeM_wotlND7Ao7uI4bjAOExSWgRgFqW7vqvm1gCZdyUac5T4MjodjXf5LautdQq3CeKBVN-BQp3lim2FaTZPo1XnRbKG4CZvGEDvRJ7cdY0NLSVy6_yBjsWDoIsoGErLDY73fXYy__CasznaIrjgr3RHX?purpose=fullsize);
+        height: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        width: 90%;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+    .card3 {
+        background-image: url(https://images.openai.com/static-rsc-4/V6RnDytIjS0MgHE57hv9h5KBRMVejc5HMeqkf9gwidcyIjZplc2L8jW0GGl3MXZTIMKv6ZfUu8i-sQLx1ZUCQdrv15r5-03ftCOIHafcOkxr9EaRy2o8Z2LM_j7e0UAWz_bbTt9Uy3-Fjd_hzhZvry2BtW0oP5lZxkloHpiHG-1LFfAMKxuZ9698p4_98xY-?purpose=fullsize);
+        height: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        width: 90%;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+    footer {
+        background-color: rgb(30, 29, 37);
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+
+    }
+
+    .insta {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+
+
+    }
+
+    .insta img {
+        width: 40%;
+        height: 90px;
+
+    }
+
+    footer a {
+        color: white;
+        text-decoration: none;
+        margin: 0px 3px;
+    }
+
+    button {
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 6px;
+    }
+}
